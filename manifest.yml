@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: firstAPP-hugo
+  host: firstAPP-hugo
+  disk_quota: 1024M
+  services:
+  - firstAPP-hugo-cloudantNoSQLDB
+  - Language Translator-ek
+  - Conversation-3s
